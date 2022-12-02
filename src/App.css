@@ -11,22 +11,11 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: aqua;
-}
-
-input {
-  width: 296px;
-  height: 25px;
-  outline: none;
-  border: none;
-  color: #fff;
-  background-color: rgb(83, 90, 114);
 }
 
 .answer {
-  width: 98.6%;
-  height: 25px;
-  margin-top: 0;
+  width: 287px;
+  height: 50px;
   padding-right: 5px;
   font-size: 20px;
   text-align: right;
@@ -53,8 +42,12 @@ input {
   background-color: rgb(222, 217, 217);
 }
 
+.size:hover {
+  background-color: #fff;
+}
+
 .zero {
-  width: 49.334%;
+  width: 48.7%;
   height: 45px;
   display: flex;
   flex-direction: row;
@@ -62,6 +55,10 @@ input {
   align-items: center;
   border: 1px solid grey;
   background-color: rgb(222, 217, 217);
+}
+
+.zero:hover {
+  background-color: #fff;
 }
 
 .orabg-bg {
