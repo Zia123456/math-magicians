@@ -20,6 +20,7 @@ const Calculator = () => {
 
   return (
     <div className="main-container">
+      <h2>Lets Do Some Math</h2>
       <div className="calculation-field">
         <h1 className="answer">
           {data.next || data.operation || data.total || data.err || 0}
