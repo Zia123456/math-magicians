@@ -22,7 +22,7 @@ const Calculator = () => {
     <div className="main-container">
       <h2>Lets Do Some Math</h2>
       <div className="calculation-field">
-        <h1 className="answer">
+        <h1 className="answer" data-testid="testH2">
           {data.next || data.operation || data.total || data.err || 0}
         </h1>
         <div className="numbers-and-symbols">
